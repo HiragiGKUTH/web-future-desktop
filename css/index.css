@@ -6,15 +6,66 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     background-color: #5ba7f4;
     color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #202075;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header p {
+    font-size: 3vh;
+    margin: 0;
+    margin-right: 4vw;
+    padding: 0;
+    color: #889;
 }
 
 #desc-container {
-    margin: 4vmin 6vmin;
+    margin: 2vmin 3vmin;
+    margin-top: 10vmin;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hl1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
-    font-size: 8vmin;
+    font-size: 12vmin;
     font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+    font-size: 6vw;
+    text-align: center;
+    margin: 0;
+    padding: 5vmin 0;
+}
+
+.elem {
+    margin-left: 2vw;
+    border-bottom: thin solid #7bc7ff;
+    border-top: thin solid #7bc7ff;
+    border-right: medium solid #7bc7ff;
+    border-left: medium solid #7bc7ff;
+    border-radius: 4px;
+    
+}
+
+p {
+    font-size: 1.5vw;
 }
 
 .btn {
@@ -25,12 +76,16 @@ h1 {
 
 button {
     background-color: #2b87d4;
- 
-    border-radius: 7px;
-    padding: 1vmin 2vmin;
+    
+    border-radius: 4vmin;
+    padding: 2vmin 3vmin;
+    margin: 4vmin;
     box-shadow: 4px 4px 4px rgba(0,0,128,0.4);
     transition-duration: 0.5s:
 }
+
+
+
 
 
 
@@ -38,13 +93,13 @@ button {
 @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
 
 h1 { 
-	font: bold 500% Consolas, Monaco, monospace;
-	border-right: .1em solid black;
-	width: 16.5em; 
-	width: 9ch;
-	margin: 4vmin 5vmin;
-	white-space: nowrap;
-	overflow: hidden;
-	-webkit-animation: typing 1s steps(9, end),
-	           blink-caret .5s step-end infinite alternate;
+    font: bold 12vw Consolas, Monaco, monospace;
+    border-right: .1em solid black;
+    width: 16.5em; 
+    width: 9ch;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 1s steps(9, end),
+	               blink-caret .5s step-end infinite alternate;
 }

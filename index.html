@@ -10,23 +10,42 @@
   </head>
 
   <body>
+    <header>
+      <p>Utree / Hiragi-GKUTH</p>
+    </header>
     <section id="desc-container">
-      <img src="Icon.png"></img>
-      <h1>Ai Locker</h1>
-      <h2>なにこれ？！</h2>
-      何か取られては行けないモノ，見せたくないモノ，たくさんありますよね！<br>
-      そういうモノを鍵を使わず，いつでも，どこでも解錠出来るような仕組みを作ってみました！<br>
-      
-      <h2>どうやって作ったん？</h2>
-      引き出しの筐体自体は関西大学のモノラボにて，レーザーカッターを使用して切り出しました！<br>
-      また，ロック機構はサーボモータと，制御にRaspberry PIを使用しました！<br>
-      <h2>使用技術！</h2>
-      <button>
-	<a class="btn hvr-underline-from-center" href="https://utree.github.io/AiLockerWeb/index.html">Try it !</a>
-	</button>
+      <section id="hl1">
+	<img src="Icon.png" width="160" height="160"></img>
+	<h1>Ai Locker</h1>
+      </section>
+      <section class="odd elem">
+	<h2>なにこれ？！</h2>
+	<p>
+	  何か取られては行けないモノ，見せたくないモノ，たくさんありますよね！<br>
+	  そういうモノを物理的な鍵を使わず，AIを用いて，
+	  カメラの映像に写っているもので解錠出来るような仕組みを作ってみました！<br>
+	</p>
+      </section>
+      <section class="even elem">
+	<h2>どうやって作ったん？</h2>
+	<p>
+	  引き出しの筐体自体は関西大学のモノラボにて，レーザーカッターを使用して切り出しました！<br>
+	  また，ロック機構はサーボモータと，制御にRaspberry PIを使用しました！<br>
+	</p>
+      </section>
+      <section class="odd elem">
+	<h2>使用技術！</h2>
+	<p>
+	  言語:Python<br>
+	  ライブラリ:Flask, GPIO<br>
+	</p>
+      </section>
     </section>
-
-    
+    <section id="btn-container">
+      <button>
+	<a class="btn hvr-underline-from-center" href="https://utree.github.io/AiLockerWeb/index.html" target="_blank">使ってみる！</a>
+      </button>
+    </section>
   </body>
 </html>
   
