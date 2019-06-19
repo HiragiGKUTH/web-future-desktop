@@ -1,0 +1,50 @@
+* {
+    box-sizeing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+    background-color: #5ba7f4;
+    color: #fff;
+}
+
+#desc-container {
+    margin: 4vmin 6vmin;
+}
+
+h1 {
+    font-size: 8vmin;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 4vmin;
+    color: #fff;
+}
+
+button {
+    background-color: #2b87d4;
+ 
+    border-radius: 7px;
+    padding: 1vmin 2vmin;
+    box-shadow: 4px 4px 4px rgba(0,0,128,0.4);
+    transition-duration: 0.5s:
+}
+
+
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1 { 
+	font: bold 500% Consolas, Monaco, monospace;
+	border-right: .1em solid black;
+	width: 16.5em; 
+	width: 9ch;
+	margin: 4vmin 5vmin;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 1s steps(9, end),
+	           blink-caret .5s step-end infinite alternate;
+}
