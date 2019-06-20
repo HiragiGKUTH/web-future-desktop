@@ -12,9 +12,9 @@ body {
     height: auto;
 	background-color: #5ba7f4;
 	background-image:
-	 repeating-linear-gradient(-45deg,
-	 #6af, #7bf 10px,
-	 transparent 0, transparent 30px);
+	 repeating-linear-gradient(-30deg,
+	 #5af, #5bf 15px,
+	 transparent 50% 0, transparent 30px);
 }
 
 header {
