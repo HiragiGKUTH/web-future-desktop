@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ai Locker</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
-    <link rel="stylesheet" type="text/css" href="./css/hover.css">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900&amp;display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <header>
-      <p>Utree / Hiragi-GKUTH</p>
-    </header>
+<head>
+  <meta charset="utf-8">
+  <title>Ai Locker</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/hover.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:900&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <p>Utree / Hiragi-GKUTH</p>
+  </header>
+  <div class="cp_bgpattern03">
     <section id="desc-container">
       <section id="hl1">
-	<img src="Icon.png" width="160" height="160"></img>
-	<h1>Ai Locker</h1>
+        <img src="Icon.png" width="160" height="160"></img>
+        <h1>Ai Locker</h1>
       </section>
       <section class="odd elem">
-	<h2>なにこれ？！</h2>
-	<p>
-	  何か取られては行けないモノ，見せたくないモノ，たくさんありますよね！<br>
-	  そういうモノを物理的な鍵を使わず，AIを用いて，
-	  カメラの映像に写っているもので解錠出来るような仕組みを作ってみました！<br>
-	</p>
+        <h2>なにこれ？！</h2>
+        <p>
+          何か取られては行けないモノ，見せたくないモノ，たくさんありますよね！<br>
+          そういうモノを物理的な鍵を使わず，AIを用いて，
+          カメラの映像に写っているもので解錠出来るような仕組みを作ってみました！<br>
+        </p>
       </section>
       <section class="even elem">
-	<h2>どうやって作ったん？</h2>
-	<p>
-	  引き出しの筐体自体は関西大学のモノラボにて，レーザーカッターを使用して切り出しました！<br>
-	  また，ロック機構はサーボモータと，制御にRaspberry PIを使用しました！<br>
-	</p>
+        <h2>どうやって作ったん？</h2>
+        <p>
+          引き出しの筐体自体は関西大学のモノラボにて，レーザーカッターを使用して切り出しました！<br>
+          **ここらへん追加説明**
+          また，ロック機構はサーボモータと，制御にRaspberry PIを使用しました！<br>
+        </p>
       </section>
       <section class="odd elem">
-	<h2>使用技術！</h2>
-	<p>
-	  言語:Python<br>
-	  ライブラリ:Flask, GPIO<br>
-	</p>
+        <h2>使用技術！</h2>
+        <p>
+          言語:Python<br>
+          ライブラリ:Flask, GPIO<br>
+          ハードウェア:Raspberry PI / サーボモータ
+        </p>
+      </section>
+      <section class="even elem">
+        <h2>使い方！</h2>
+        下のボタンからコントロール用サイトへアクセス，猫を移してカメラボタンを押してロック
+        犬を写してカメラボタンを押してアンロックできる！
       </section>
     </section>
     <section id="btn-container">
       <button>
-	<a class="btn hvr-underline-from-center" href="https://utree.github.io/AiLockerWeb/index.html" target="_blank">使ってみる！</a>
+        <a class="btn hvr-underline-from-center" href="https://utree.github.io/AiLockerWeb/index.html"
+          target="_blank">使ってみる！</a>
       </button>
     </section>
-  </body>
+  </div>
+</body>
+
 </html>
-  
